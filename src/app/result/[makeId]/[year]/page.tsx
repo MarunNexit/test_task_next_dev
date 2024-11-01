@@ -22,10 +22,8 @@ export const generateStaticParams = async () => {
   }
 
   return paths.map((path) => ({
-    params: {
-      makeId: path.makeId.toString(),
-      year: path.year.toString(),
-    },
+    makeId: path.makeId.toString(),
+    year: path.year.toString(),
   }));
 };
 
