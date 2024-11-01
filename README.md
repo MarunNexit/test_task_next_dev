@@ -13,8 +13,9 @@ This project is a front-end assessment for a JavaScript Engineer role, designed 
 
 
 ## Start local
+```bash
 npm run dev
-
+```
 ## Authors
 
 - [@MarunNexit](https://github.com/MarunNexit)
