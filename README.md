@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Car Dealer App
 
-## Getting Started
+This project is a front-end assessment for a JavaScript Engineer role, designed to create a Car Dealer Application using Next.js. The application enables users to filter vehicles by type and model year and view the filtered results on a dedicated page. This app is ideal for users looking to explore vehicle options based on specific criteria in a structured and visually appealing way.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Filter Options for Vehicles
+- Dynamic Results Page
+- 3D Models Render
+- Static Page Generation
+- Error Handling for API Requests
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Authors
 
-## Learn More
+- [@MarunNexit](https://github.com/MarunNexit)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Environment Variables
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To run this project, you will need to add the following environment variables to your .env file
 
-## Deploy on Vercel
+`API_KEY`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+VEHICLE_MAKES_API_URL=https://vpic.nhtsa.dot.gov/api/vehicles/GetMakesForVehicleType/car?format=json
+VEHICLE_MODELS_API_URL=https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tech Stack
+
+**Client and Server:** Next.js (with API Routes), Tailwind CSS
+
+## Documentation
+
+- API Documentation: [VPIC API Documentation](https://vpic.nhtsa.dot.gov/api/?ref=public_apis)
+- Next.js Documentation: [Next.js Docs](https://nextjs.org/docs)
+- Tailwind CSS Documentation: [Tailwind CSS Docs](https://tailwindcss.com/docs)
+- React Suspense Documentation: [React Suspense](https://react.dev/reference/react/Suspense)
