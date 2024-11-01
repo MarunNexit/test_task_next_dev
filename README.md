@@ -12,6 +12,9 @@ This project is a front-end assessment for a JavaScript Engineer role, designed 
 - Error Handling for API Requests
 
 
+## Start local
+npm run dev
+
 ## Authors
 
 - [@MarunNexit](https://github.com/MarunNexit)
